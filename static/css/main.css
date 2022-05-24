@@ -1,0 +1,137 @@
+/* color scheme */
+:root{
+--accentcolor: #6667ab; /* #9e74eb; */
+--textcolor: #dcdcdc;
+--backgroundcolor: #202124;
+--inlinecodecolor:#282a36;
+--highlightlinkcolor: #757883;
+}
+
+
+body {
+    background-color: var(--backgroundcolor);
+}
+
+html {
+    font-family: 'Lato';
+    color: var(--textcolor);
+    scroll-behavior: smooth;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Space Grotesk';
+    font-weight: bold;
+}
+
+.content {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 80%;
+}
+
+a {
+    color: inherit;
+    transition: 100ms;
+}
+
+a:hover {
+    color: var(--highlightlinkcolor);
+}
+
+.post-title-link {
+    font-size: 1.8rem;
+    font-family: 'Space Grotesk';
+    font-weight: 500;
+    text-decoration: none;
+}
+
+
+/* Footer */
+footer {
+    font-family: 'Space Grotesk';
+    font-weight: 300;
+    font-size: 0.75rem;
+    text-align: center;
+    padding-top: 0.5rem;
+    border-top: 1px solid var(--accentcolor);
+    margin-top:0.5rem;
+}
+
+
+p {
+    font-weight: 300;
+    font-size: 1.2rem;
+}
+
+/* Title Display Metadata */
+.meta {
+    font-family: 'JetBrains Mono';
+    font-style: italic;
+    font-size: 0.9rem;
+}
+
+.title h1 {
+    font-size: 2.0rem;
+    margin-bottom: 0%;
+}
+
+/* Math Styling */
+.katex-display {
+    border: 1px solid var(--inlinecodecolor);
+    border-radius: .25rem;
+    padding-left: .5rem;
+    padding-right: .5rem;
+    padding-top: .25rem;
+    padding-bottom: .25rem;
+}
+
+/* BlockQuote Styling */
+blockquote {
+    font-style: italic;
+    background-color: var(--inlinecodecolor);
+    /* border-radius: .25rem; */
+    padding-left: .5rem;
+    padding-right: .5rem;
+    padding-top: .25rem;
+    padding-bottom: .25rem;
+    border-left: 8px solid var(--highlightlinkcolor);
+    color: grey;
+}
+
+/* Tables */
+table {
+    border-radius: 0.25rem;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border-bottom: 1px solid rgb(119, 119, 119);
+    border-radius: 0.25rem;
+    padding: 8px;
+}
+
+
+table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: var(--inlinecodecolor);
+}
+
+.index-display {
+    text-align: center;
+    margin-top: 20%;
+    margin-bottom: 20%;
+    display: flex;
+    justify-content: center;
+}
+
+.index-display h1 {
+    font-size: 3rem;
+}
+
+.post-summary {
+    font-family: "Lato";
+    font-size: 1.25rem;
+}

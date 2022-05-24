@@ -1,0 +1,33 @@
+/* Header */
+header {
+    font-family: 'Space Grotesk';
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 3em 0;
+    font-weight: 500;
+}
+
+header .title {
+  font-size: 1.5rem;
+  transform: translate3d(0,0,0);
+  -webkit-transform:translate3d(0,0,0);
+}
+
+header .title:hover {
+    font-family: 'Kavivanar';
+    font-size: 1.3rem;
+}
+
+
+header a {
+    color: inherit;
+    text-decoration: none;
+    transition: none;
+}
+
+header a:hover {
+    border-bottom: 3px solid var(--accentcolor);
+    color: inherit;
+    transition: none;
+}

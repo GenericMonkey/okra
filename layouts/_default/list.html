@@ -1,0 +1,16 @@
+{{ define "main" }}
+<h1>All Posts</h1>
+{{- range .Data.Pages -}}
+    {{- if (not (in (.Site.Params.excludedTypes | default (slice "page")) .Type)) -}}
+    {{ if (not (.Draft)) }}
+        <section class="post">
+            <a class="post-title-link" href="{{ .RelPermalink }}">{{.Title}}</a><br>
+            <span class="meta">{{ dateFormat "Jan 2, 2006" .Date }}
+            <div class="post-summary">
+                {{ .Summary }}
+            </div>
+        </section>
+    {{ end }}
+    {{- end -}}
+{{- end -}}
+{{ end }}

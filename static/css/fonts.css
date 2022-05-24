@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+
+@font-face {
+    font-family: 'Kavivanar';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/Kavivanar-Regular.ttf') format('truetype'); /* Safari, Android, iOS */
+}
+
+@font-face {
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 300;
+    src: url('../fonts/SpaceGrotesk-Light.ttf') format('truetype'); /* Safari, Android, iOS */
+}
+
+@font-face {
+    font-family: 'Space Grotesk';
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/SpaceGrotesk-Medium.ttf') format('truetype'); /* Safari, Android, iOS */
+}
+
+@font-face {
+    font-family: 'Space Grotesk';
+    font-style: bold;
+    font-weight: 700;
+    src: url('../fonts/SpaceGrotesk-Bold.ttf') format('truetype'); /* Safari, Android, iOS */
+}
+
+
+@font-face {
+    font-family: 'JetBrains Mono';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/JetBrainsMono-Regular.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/JetBrainsMono-Regular.ttf') format('truetype'); /* Safari, Android, iOS */
+}
+
+@font-face {
+    font-family: 'JetBrains Mono';
+    font-style: italic;
+    font-weight: 400;
+    src: url('../fonts/JetBrainsMono-Italic.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/JetBrainsMono-Italic.ttf') format('truetype'); /* Safari, Android, iOS */
+}
+
+
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 300;
+    src: url('../fonts/Lato-Light.ttf') format('truetype'); /* Safari, Android, iOS */
+}
+
+@font-face {
+    font-family: 'Lato';
+    font-style: italic;
+    font-weight: 300;
+    src: url('../fonts/Lato-LightItalic.ttf') format('truetype'); /* Safari, Android, iOS */
+}

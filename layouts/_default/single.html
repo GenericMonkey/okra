@@ -1,0 +1,19 @@
+{{ define "main" }}
+<main>
+<article>
+    <div class="title">
+        <h1 class="title">{{ .Title }}</h1>
+        <div class="meta">Posted on {{ dateFormat "Jan 2, 2006" .Date }}{{ if .Draft }} <code class="draft-label">DRAFT</code> {{ end }}</div>
+    </div>
+    <div class="body">
+        {{ .Content }}
+    </div>
+</article>
+{{ if gt (len .TableOfContents) 300 }}
+<aside class="toc">
+        <h3>Table of Contents</h3>
+        {{ .TableOfContents }}
+</aside>
+{{ end }}
+</main>
+{{ end }}

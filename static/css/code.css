@@ -1,0 +1,45 @@
+/* Code & Code Block Styling */
+code {
+    font-family: 'JetBrains Mono';
+    font-weight: 400;
+}
+
+p code {
+    display: inline;
+    background-color: var(--inlinecodecolor);
+    border-radius: .25rem;
+    padding-left: .5rem;
+    padding-right: .5rem;
+    padding-top: .25rem;
+    padding-bottom: .25rem;
+    margin-right: .25rem;
+    font-size: 1rem;
+}
+
+.highlight pre {
+    font-size: 1rem;
+    display: block;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: .5rem;
+    padding-right: .5rem;
+    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
+    border-radius: .25rem;
+    overflow: auto;
+    word-wrap: break-word;
+    word-break: break-word;
+    word-wrap: normal;
+}
+
+.highlight {
+    padding-left: .5rem;
+    padding-right: .5rem;
+    margin-bottom: .5rem;
+    margin-top: .5rem;
+    border-radius: .25rem;
+}
+
+.highlight span {
+    font-family: 'JetBrains Mono';
+}

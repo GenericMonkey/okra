@@ -1,0 +1,10 @@
+{{ define "main" }}
+<script>
+    const welcome = '{{ .Site.Params.welcomeMessage }}';
+</script>
+<script src="/js/word_type.js"></script>
+<div class="index-display">
+    <h1 id="rotating-words">|</h1>
+    <h1 id="blinking-cursor" style="visibility: hidden; margin-left: 0.1rem;">|</h1>
+</div>
+{{ end }}
